@@ -162,7 +162,7 @@ def evaluate_position(pieces):
     # Center squares
     center_squares = [(3, 3), (3, 4), (4, 3), (4, 4)]
 
-    # Piece-square tables (simplified for this example)
+    # Piece-square tables 
     pst = {
         'pawn': [
             [0, 0, 0, 0, 0, 0, 0, 0],
